@@ -1,4 +1,4 @@
-      <p><b>Non-Asymptotic Analysis of Fractional Langevin Monte Carlo for Non-Convex Optimization</b><br><i>Thanh Huy Nguyen (Telecom ParisTech) &middot; Umut Simsekli (Telecom ParisTech) &middot; Gaël RICHARD (Télécom ParisTech)</i></p>
+<p><b>Non-Asymptotic Analysis of Fractional Langevin Monte Carlo for Non-Convex Optimization</b><br><i>Thanh Huy Nguyen (Telecom ParisTech) &middot; Umut Simsekli (Telecom ParisTech) &middot; Gaël RICHARD (Télécom ParisTech)</i></p>
     
       <p><b>A Tail-Index Analysis of Stochastic Gradient Noise in Deep Neural Networks</b><br><i>Umut Simsekli (Telecom ParisTech) &middot; Levent Sagun (CEA) &middot; Mert Gurbuzbalaban (Rutgers University)</i></p>
     
@@ -108,7 +108,7 @@
     
       <p><b>Convolutional Poisson Gamma Belief Network</b><br><i>CHAOJIE WANG (XIDIAN UNIVERSITY) &middot; Bo Chen (School of Electronic Engineering, Xidian University) &middot; Sucheng Xiao (Xidian University) &middot; Mingyuan Zhou (University of Texas at Austin)</i></p>
     
-      <p><b>Improving Adversarial Robustness via Promoting Ensemble Diversity</b><br><i>Tianyu Pang (Tsinghua University) &middot; kun xu (Tsinghua University) &middot; Chao Du (Tsinghua University) &middot; Ning Chen () &middot; Jun Zhu (Tsinghua University)</i></p>
+      <p><b>Improving Adversarial Robustness via Promoting Ensemble Diversity</b><br><i>Tianyu Pang (Tsinghua University) &middot; Kun Xu (Tsinghua University) &middot; Chao Du (Tsinghua University) &middot; Ning Chen () &middot; Jun Zhu (Tsinghua University)</i></p>
     
       <p><b>Faster Stochastic Alternating Direction Method of Multipliers for Nonconvex Optimization</b><br><i>Feihu Huang (University of Pittsburgh) &middot; Songcan Chen (Nanjing University of Aeronautics and Astronautics) &middot; Heng Huang (University of Pittsburgh)</i></p>
     
@@ -330,9 +330,9 @@
     
       <p><b>Approximation and non-parametric estimation of ResNet-type convolutional neural networks</b><br><i>Kenta Oono (University of Tokyo / Preferred Networks) &middot; Taiji Suzuki (The University of Tokyo / RIKEN)</i></p>
     
-      <p><b>A Persistent Weisfeiler--Lehman Procedure for Graph Classification</b><br><i>Bastian Rieck (Machine Learning & Computational Biology Lab) &middot; Christian Bock (ETH Zurich) &middot; Karsten Borgwardt (ETH Zurich)</i></p>
+      <p><b>A Persistent Weisfeiler--Lehman Procedure for Graph Classification</b><br><i>Bastian Rieck (ETH Zurich) &middot; Christian Bock (ETH Zurich) &middot; Karsten Borgwardt (ETH Zurich)</i></p>
     
-      <p><b>Bayesian Action Decoder for Deep Multi-Agent Reinforcement Learning</b><br><i>Jakob Foerster (Facebook AI Research) &middot; Francis Song (DeepMind) &middotmiddot; Edward Hughes (DeepMind) &middot; Neil Burch (DeepMind) &middot; Iain Dunning (DeepMind) &middot; Shimon Whiteson (University of Oxford) &middot; Matthew Botvinick (DeepMind) &middot; Michael Bowling (DeepMind)</i></p>
+      <p><b>Bayesian Action Decoder for Deep Multi-Agent Reinforcement Learning</b><br><i>Jakob Foerster (Facebook AI Research) &middot; Francis Song (DeepMind) &middot; Edward Hughes (DeepMind) &middot; Neil Burch (DeepMind) &middot; Iain Dunning (DeepMind) &middot; Shimon Whiteson (University of Oxford) &middot; Matthew Botvinick (DeepMind) &middot; Michael Bowling (DeepMind)</i></p>
     
       <p><b>Finite-Time Analysis of Distributed TD(0) with Linear Function Approximation on Multi-Agent Reinforcement Learning</b><br><i>Thinh Doan (Georgia Institute of Technology) &middot; Siva Maguluri (Georgia Tech) &middot; Justin Romberg (Georgia Tech)</i></p>
     
@@ -504,7 +504,7 @@
     
       <p><b>Co-Representation Network for Generalized Zero-Shot Learning</b><br><i>Fei Zhang (Xidian University) &middot; Guangming Shi (Xidian University)</i></p>
     
-      <p><b>Safe Grid Search with Optimal Complexity</b><br><i>Eugene Ndiaye (Telecom ParisTech) &middot; Tam Le (RIKEN AIP) &middot; Olivier Fercoq () &middot; Joseph Salmon (Université de Montpellier) &middot; Ichiro Takeuchi (Nagoya Institute of Technology / RIKEN)</i></p>
+      <p><b>Safe Grid Search with Optimal Complexity</b><br><i>Eugene Ndiaye (Telecom ParisTech) &middot; Tam Le (RIKEN AIP) &middot; Olivier Fercoq (Télécom ParisTech, Université Paris-Saclay) &middot; Joseph Salmon (Université de Montpellier) &middot; Ichiro Takeuchi (Nagoya Institute of Technology / RIKEN)</i></p>
     
       <p><b>On the Universality of Invariant Networks</b><br><i>Haggai Maron (Weizmann Institute of Science) &middot; Ethan Fetaya (University of Toronto) &middot; Nimrod Segol (Weizmann Institute of Science) &middot; Yaron Lipman (Weizmann Institute of Science)</i></p>
     
@@ -552,7 +552,7 @@
     
       <p><b>Approximated Oracle Filter Pruning for Destructive CNN Width Optimization</b><br><i>XIAOHAN DING (Tsinghua University) &middot; guiguang ding (Tsinghua University, China) &middot; Yuchen Guo (Tsinghua University) &middot; Jungong Han (Lancaster University) &middot; Chenggang Yan (Hangzhou Dianzi University)</i></p>
     
-      <p><b>Zero Shot Knowledge Distillation in Deep Networks</b><br><i>Gaurav Nayak (Indian Institute of Science) &middot; Konda Reddy Mopuri (University of Edinburgh) &middot; Vaisakh Shaj (University Of Lincoln) &middot; Venkatesh Babu Radhakrishnan (Indian Institute of Science) &middot; Anirban Chakraborty (Indian Institute of Science)</i></p>
+      <p><b>Zero Shot Knowledge Distillation in Deep Networks</b><br><i>Gaurav Kumar Nayak (Indian Institute of Science) &middot; Konda Reddy Mopuri (University of Edinburgh) &middot; Vaisakh Shaj (University Of Lincoln) &middot; Venkatesh Babu Radhakrishnan (Indian Institute of Science) &middot; Anirban Chakraborty (Indian Institute of Science)</i></p>
     
       <p><b>Learning for New Visual Environments with Limited Labels</b><br><i>Pengkai Zhu (Boston University) &middot; Hanxiao Wang (Boston University) &middot; Venkatesh Saligrama (Boston University)</i></p>
     
@@ -818,7 +818,7 @@
     
       <p><b>Robust Inference via Generative Classifiers for Handling Noisy Labels</b><br><i>Kimin Lee (KAIST) &middot; Sukmin Yun (KAIST) &middot; Kibok Lee (University of Michigan) &middot; Honglak Lee (Google / U. Michigan) &middot; Bo Li (UIUC) &middot; Jinwoo Shin (KAIST, AITRICS)</i></p>
     
-      <p><b>SAGA with Arbitrary Sampling</b><br><i>Xun Qian (KAUST) &middot; Peter Richtarik (KAUST) &middot; Zheng Qu ()</i></p>
+      <p><b>SAGA with Arbitrary Sampling</b><br><i>Xun Qian (KAUST) &middot; Peter Richtarik (KAUST) &middot; Zheng Qu (The University of Hong Kong)</i></p>
     
       <p><b>Predictor-Corrector Policy Optimization</b><br><i>Ching-An Cheng (Georgia Institute of Technology) &middot; Xinyan Yan (Georgia Tech) &middot; Nathan Ratliff (NVIDIA) &middot; Byron Boots (Georgia Tech)</i></p>
     
@@ -904,7 +904,7 @@
     
       <p><b>Leveraging Low-Rank Relations Between Surrogate Tasks in Structured Prediction</b><br><i>Giulia Luise (University College London) &middot; Dimitrios Stamos (University College London) &middot; Massimiliano Pontil (Istituto Italiano di Tecnologia and University College London) &middot; Carlo Ciliberto ()</i></p>
     
-      <p><b>Almost surely constrained convex optimization</b><br><i>Olivier Fercoq () &middot; Ahmet Alacaoglu (EPFL) &middot; Ion Necoara (University Bucharest) &middot; Volkan Cevher (EPFL)</i></p>
+      <p><b>Almost surely constrained convex optimization</b><br><i>Olivier Fercoq (Télécom ParisTech, Université Paris-Saclay) &middot; Ahmet Alacaoglu (EPFL) &middot; Ion Necoara (University Bucharest) &middot; Volkan Cevher (EPFL)</i></p>
     
       <p><b>Exploiting Worker Correlation for Label Aggregation in Crowdsourcing</b><br><i>Yuan Li (University of Melbourne) &middot; Benjamin Rubinstein (University​ of Melbourne) &middot; Trevor Cohn (University of Melbourne)</i></p>
     
@@ -968,7 +968,7 @@
     
       <p><b>Hyperbolic Disk Embeddings for Directed Acyclic Graphs</b><br><i>Ryota Suzuki (scouty Inc.) &middot; Ryusuke Takahama (scouty Inc.) &middot; Shun Onoda (scouty Inc.)</i></p>
     
-      <p><b>Kernel Normalized Cut: a Theoretical Revisit</b><br><i>Yoshikazu Terada (Osaka University / RIKEN) &middot; Michio Yamamoto (Okayama University)</i></p>
+      <p><b>Kernel Normalized Cut: a Theoretical Revisit</b><br><i>Yoshikazu Terada (Osaka University / RIKEN) &middot; Michio Yamamoto (Okayama University / RIKEN)</i></p>
     
       <p><b>Causal Discovery and Forecasting in Nonstationary Environments with State-Space Models</b><br><i>Biwei Huang (Carnegie Mellon University) &middot; Kun Zhang (Carnegie Mellon University) &middot; Mingming Gong (University of Pittsburgh & CMU) &middot; Clark Glymour (Carnegie Mellon University)</i></p>
     
@@ -1062,7 +1062,7 @@
     
       <p><b>Learning to bid in revenue-maximizing auctions</b><br><i>Thomas Nedelec (ENS Paris Saclay - Criteo AI Lab) &middot; Noureddine El Karoui (Criteo AI Lab and UC, Berkeley) &middot; Vianney Perchet (ENS Paris Saclay & Criteo AI Lab)</i></p>
     
-      <p><b>Model-Based Active Exploration</b><br><i>Pranav Shyam (R. V. College of Engineering & Indian Institute of Science) &middot; Wojciech Jaskowski (NNAISENSE) &middot; Faustino  Gomez (NNAISENSE SA)</i></p>
+      <p><b>Model-Based Active Exploration</b><br><i>Pranav Shyam (NNAISENSE) &middot; Wojciech Jaskowski (NNAISENSE) &middot; Faustino  Gomez (NNAISENSE SA)</i></p>
     
       <p><b>Target TD-Learning with Linear Function Approximation</b><br><i>Donghwan Lee (University of Illinois, Urbana-Champaign) &middot; Niao He (UIUC)</i></p>
     
@@ -1138,7 +1138,7 @@
     
       <p><b>Estimating Information Flow in Deep Neural Networks</b><br><i>Ziv Goldfeld (MIT) &middot; Ewout van den Berg (IBM) &middot; Kristjan Greenewald (IBM) &middot; Igor Melnyk (IBM) &middot; Nam Nguyen (IBM Research AI) &middot; Brian Kingsbury (IBM Research) &middot; Yury Polyanskiy (MIT)</i></p>
     
-      <p><b>A Conditional Gradient-Based Augmented Lagrangian Framework</b><br><i>Alp Yurtsever (EPFL) &middot; Olivier Fercoq () &middot; Volkan Cevher (EPFL)</i></p>
+      <p><b>A Conditional Gradient-Based Augmented Lagrangian Framework</b><br><i>Alp Yurtsever (EPFL) &middot; Olivier Fercoq (Télécom ParisTech, Université Paris-Saclay) &middot; Volkan Cevher (EPFL)</i></p>
     
       <p><b>Fairness-Aware Learning for Continuous Attributes and Treatments</b><br><i>Jeremie Mary (CRITEO) &middot; Clément Calauzènes (Criteo Research) &middot; Noureddine El Karoui (Criteo AI Lab and UC, Berkeley)</i></p>
     
@@ -1478,7 +1478,7 @@
     
       <p><b>Deep Relational Pooling</b><br><i>Ryan Murphy (Purdue University) &middot; Balasubramaniam Srinivasan (Purdue University) &middot; Vinayak A Rao (Purdue University) &middot; Bruno Ribeiro (Purdue University)</i></p>
     
-      <p><b>On the Statistical Efficiency of Optimal Kernel Sum Classifiers</b><br><i>Raphael A Meyer (1997) &middot; Jean Honorio (Purdue University)</i></p>
+      <p><b>On the Statistical Efficiency of Optimal Kernel Sum Classifiers</b><br><i>Raphael A Meyer (Purdue University) &middot; Jean Honorio (Purdue University)</i></p>
     
       <p><b>Imperceptible, Robust, and Targeted Adversarial Examples for Automatic Speech Recognition</b><br><i>Yao Qin (University of California, San Diego) &middot; Nicholas Carlini (Google) &middot; Garrison Cottrell (University of California, San Diego) &middot; Ian Goodfellow (Google Brain) &middot; Colin Raffel (Google)</i></p>
     
