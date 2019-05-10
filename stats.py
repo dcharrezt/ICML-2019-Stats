@@ -8,8 +8,8 @@ import json
 import plotly.plotly as py
 import plotly.graph_objs as go
 
-
-fileName = "initial_accepted_papers.txt"
+datasetFolderName = "datasets/" 
+fileName = datasetFolderName + "initial_accepted_papers.txt"
 
 titles_dataset = []
 n_authors_per_paper = dict()
@@ -68,9 +68,9 @@ def save_datasets_to_file():
 	json2 = json.dumps(sorted(authors_dataset.items(), key=operator.itemgetter(1),reverse=True))
 	json3 = json.dumps(sorted(institution_dataset.items(), key=operator.itemgetter(1),reverse=True))
 
-	f1 = open("n_authors_per_paper.json","w")
-	f2 = open("authors_dataset.json","w")
-	f3 = open("institution_dataset.json","w")
+	f1 = open(datasetFolderName + "n_authors_per_paper.json","w")
+	f2 = open(datasetFolderName + "authors_dataset.json","w")
+	f3 = open(datasetFolderName + "institution_dataset.json","w")
 
 	f1.write(json1)
 	f2.write(json2)
