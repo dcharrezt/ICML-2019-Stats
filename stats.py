@@ -1,6 +1,8 @@
 import re
 import operator
+import unidecode
 from bs4 import BeautifulSoup
+from collections import OrderedDict
 
 
 fileName = "initial_accepted_papers.txt"
@@ -31,12 +33,24 @@ def fill_datasets(fileName):
 
 				tmp_author = author_afiliation[0][0:]
 
+
+
 				if tmp_author not in authors_dataset:
 					authors_dataset[tmp_author] = 1
 				else:
 					authors_dataset[tmp_author] += 1
 
-				tmp_institution = author_afiliation[1].rstrip(") ").rstrip(")")
+				tmp_institution = author_afiliation[1].rstrip(") ").rstrip(")").replace('"', '')
+
+				# some authors have not updated their institution
+				# if tmp_institution == '':
+				# 	print(list_authors)
+
+				# clearing some blank spaces at the end of each instituion, removing
+				# accents and making strings case insensitive
+				tmp_institution = tmp_institution.rstrip()
+				tmp_institution = tmp_institution.lstrip()
+				tmp_institution = unidecode.unidecode(tmp_institution).lower()
 
 				if  tmp_institution not in institution_dataset:
 					institution_dataset[tmp_institution] = 1
@@ -52,4 +66,12 @@ if __name__ == "__main__":
 	# print(sorted_x)
 	# sorted_x = sorted(authors_dataset.items(), key=lambda kv: kv[1])
 	# print(sorted_x)
-	# print(n_authors_per_paper)
+
+	sorted_x = sorted(institution_dataset.items(), key=operator.itemgetter(1))
+	print(sorted_x)
+	sorted_x = OrderedDict(sorted(institution_dataset.items(), key=lambda t: t[0]))
+	print("************************************************************************")
+	print(sorted_x)
+	print(n_authors_per_paper)
+
+	print(OrderedDict(sorted(n_authors_per_paper.items(), key=lambda t: t[0])))
