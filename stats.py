@@ -1,8 +1,12 @@
+
 import re
 import operator
 import unidecode
 from bs4 import BeautifulSoup
-from collections import OrderedDict
+import json
+
+import plotly.plotly as py
+import plotly.graph_objs as go
 
 
 fileName = "initial_accepted_papers.txt"
@@ -58,20 +62,24 @@ def fill_datasets(fileName):
 					institution_dataset[tmp_institution] += 1
 
 
+def save_datasets_to_file():
+
+	json1 = json.dumps(sorted(n_authors_per_paper.items(), key=operator.itemgetter(0)))
+	json2 = json.dumps(sorted(authors_dataset.items(), key=operator.itemgetter(1),reverse=True))
+	json3 = json.dumps(sorted(institution_dataset.items(), key=operator.itemgetter(1),reverse=True))
+
+	f1 = open("n_authors_per_paper.json","w")
+	f2 = open("authors_dataset.json","w")
+	f3 = open("institution_dataset.json","w")
+
+	f1.write(json1)
+	f2.write(json2)
+	f3.write(json3)
+
+	f1.close()
+	f2.close()
+	f3.close()
+
 if __name__ == "__main__":
 	fill_datasets(fileName)
-
-	
-	# sorted_x = sorted(authors_dataset.items(), key=operator.itemgetter(1))
-	# print(sorted_x)
-	# sorted_x = sorted(authors_dataset.items(), key=lambda kv: kv[1])
-	# print(sorted_x)
-
-	sorted_x = sorted(institution_dataset.items(), key=operator.itemgetter(1))
-	print(sorted_x)
-	sorted_x = OrderedDict(sorted(institution_dataset.items(), key=lambda t: t[0]))
-	print("************************************************************************")
-	print(sorted_x)
-	print(n_authors_per_paper)
-
-	print(OrderedDict(sorted(n_authors_per_paper.items(), key=lambda t: t[0])))
+	save_datasets_to_file()
