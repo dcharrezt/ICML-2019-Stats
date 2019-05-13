@@ -9,7 +9,7 @@ import plotly.plotly as py
 import plotly.graph_objs as go
 
 datasetFolderName = "datasets/" 
-fileName = datasetFolderName + "initial_accepted_papers.txt"
+fileName = datasetFolderName + "initial_accepted_papers_ICML19.txt"
 
 titles_dataset = []
 n_authors_per_paper = dict()
@@ -36,7 +36,7 @@ def fill_datasets(fileName):
 				author_afiliation = list_authors[i].split(" (")
 
 				tmp_author = author_afiliation[0][0:]
-
+				tmp_author = unidecode.unidecode(tmp_author)
 
 
 				if tmp_author not in authors_dataset:

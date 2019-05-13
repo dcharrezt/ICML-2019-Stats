@@ -1,18 +1,18 @@
 import os
 
 
-filename = 'initial_accepted_papers.txt'
+datasetFolderName = "datasets/" 
+fileName = datasetFolderName + "initial_accepted_papers_ICML19.txt"
 
-
-def remove_empty_lines(filename):
-    if not os.path.isfile(filename):
-        print("{} does not exist ".format(filename))
+def remove_empty_lines(fileName):
+    if not os.path.isfile(fileName):
+        print("{} does not exist ".format(fileName))
         return
-    with open(filename) as filehandle:
+    with open(fileName) as filehandle:
         lines = filehandle.readlines()
 
-    with open(filename, 'w') as filehandle:
+    with open(fileName, 'w') as filehandle:
         lines = filter(lambda x: x.strip(), lines)
         filehandle.writelines(lines)   
 
-remove_empty_lines(filename)
+remove_empty_lines(fileName)
