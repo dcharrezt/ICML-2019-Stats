@@ -1,9 +1,8 @@
-
 import re
 import operator
 import unidecode
 from bs4 import BeautifulSoup
-import json
+import json, csv
 
 import plotly.plotly as py
 import plotly.graph_objs as go
@@ -31,6 +30,8 @@ def fill_datasets(fileName):
 			else:
 				n_authors_per_paper[number_authors] += 1
 
+
+			tmp_institution_set = set()
 			for i in range( number_authors ):
 
 				author_afiliation = list_authors[i].split(" (")
@@ -55,14 +56,29 @@ def fill_datasets(fileName):
 				tmp_institution = tmp_institution.rstrip()
 				tmp_institution = tmp_institution.lstrip()
 				tmp_institution = unidecode.unidecode(tmp_institution).lower()
+				tmp_institution_set.add(tmp_institution)
 
-				if  tmp_institution not in institution_dataset:
-					institution_dataset[tmp_institution] = 1
+				# if  tmp_institution not in institution_dataset:
+				# 	institution_dataset[tmp_institution] = 1
+				# else:
+				# 	institution_dataset[tmp_institution] += 1
+
+
+			for i in tmp_institution_set:
+
+				if  i not in institution_dataset:
+					institution_dataset[i] = 1
 				else:
-					institution_dataset[tmp_institution] += 1
+					institution_dataset[i] += 1
 
 
 def save_datasets_to_file():
+
+	tmp = sorted(institution_dataset.items(), key=operator.itemgetter(1),reverse=True)
+	with open(datasetFolderName+'institution_dataset.csv', 'w') as f:
+		for key in tmp:
+			f.write("%s;%s\n"%(key[0], key[1]))
+	f.close()
 
 	json1 = json.dumps(sorted(n_authors_per_paper.items(), key=operator.itemgetter(0)))
 	json2 = json.dumps(sorted(authors_dataset.items(), key=operator.itemgetter(1),reverse=True))
