@@ -4,9 +4,9 @@ Code for the Medium post ICML 2019 Stats
 
 ### Prerequisites
 
-plotly
-[plotly-orca](https://github.com/plotly/orca)
-matplotlib
+* plotly
+* [plotly-orca](https://github.com/plotly/orca)
+* matplotlib
 
 ## Acknowledgments
 
