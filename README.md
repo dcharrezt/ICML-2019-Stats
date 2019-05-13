@@ -4,6 +4,9 @@ Code for the Medium post ICML 2019 Stats
 
 ### Prerequisites
 
+## Python libraries
+
+* [BeautifulSoup](https://github.com/getanewsletter/BeautifulSoup4)
 * plotly
 * [plotly-orca](https://github.com/plotly/orca)
 * matplotlib
