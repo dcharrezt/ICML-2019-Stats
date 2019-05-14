@@ -1,6 +1,7 @@
 # ICML-2019-Stats
 General stats about ICML 2019
-Code for the Medium post ICML 2019 Stats
+
+Code for the [Medium post](https://medium.com/@dcharrezt/icml-2019-stats-4ba18fbc6543) ICML 2019 Stats
 
 ### Prerequisites
 
